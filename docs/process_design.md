@@ -58,7 +58,5 @@ Registration -> Triage -> Doctor -> (X-Ray or Lab, if needed) -> Discharge
 
 
 
-\## Next step
 
-Write generate\_events.py to produce this data.
 
