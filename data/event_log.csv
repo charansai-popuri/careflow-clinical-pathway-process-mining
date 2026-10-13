@@ -1,401 +1,401 @@
-Case_ID,Activity,Timestamp
-P001,Registration,2026-10-01 23:12:00
-P001,Triage,2026-10-01 23:14:00
-P001,Doctor,2026-10-01 23:23:00
-P001,Discharge,2026-10-01 23:40:00
-P002,Registration,2026-10-02 03:03:00
-P002,Triage,2026-10-02 03:10:00
-P002,Doctor,2026-10-02 03:16:00
-P002,Discharge,2026-10-02 03:43:00
-P003,Registration,2026-10-03 17:36:00
-P003,Triage,2026-10-03 17:38:00
-P003,Doctor,2026-10-03 17:43:00
-P003,Discharge,2026-10-03 17:55:00
-P004,Registration,2026-10-02 15:45:00
-P004,Triage,2026-10-02 15:51:00
-P004,Doctor,2026-10-02 16:05:00
-P004,Discharge,2026-10-02 16:15:00
-P005,Registration,2026-10-03 17:16:00
-P005,Triage,2026-10-03 17:19:00
-P005,Doctor,2026-10-03 17:31:00
-P005,Discharge,2026-10-03 17:59:00
-P006,Registration,2026-10-01 08:53:00
-P006,Triage,2026-10-01 09:01:00
-P006,Doctor,2026-10-01 09:08:00
-P006,Discharge,2026-10-01 09:31:00
-P007,Registration,2026-10-02 21:56:00
-P007,Triage,2026-10-02 21:59:00
-P007,Doctor,2026-10-02 22:07:00
-P007,Discharge,2026-10-02 22:27:00
-P008,Registration,2026-10-01 20:39:00
-P008,Triage,2026-10-01 20:44:00
-P008,Doctor,2026-10-01 20:50:00
-P008,Discharge,2026-10-01 21:11:00
-P009,Registration,2026-10-02 20:06:00
-P009,Triage,2026-10-02 20:14:00
-P009,Doctor,2026-10-02 20:19:00
-P009,Discharge,2026-10-02 20:43:00
-P010,Registration,2026-10-03 11:40:00
-P010,Triage,2026-10-03 11:42:00
-P010,Doctor,2026-10-03 11:55:00
-P010,Discharge,2026-10-03 12:14:00
-P011,Registration,2026-10-02 10:15:00
-P011,Triage,2026-10-02 10:22:00
-P011,Doctor,2026-10-02 10:28:00
-P011,Discharge,2026-10-02 10:39:00
-P012,Registration,2026-10-02 23:30:00
-P012,Triage,2026-10-02 23:32:00
-P012,Doctor,2026-10-02 23:40:00
-P012,Discharge,2026-10-02 23:53:00
-P013,Registration,2026-10-02 21:57:00
-P013,Triage,2026-10-02 22:02:00
-P013,Doctor,2026-10-02 22:17:00
-P013,Discharge,2026-10-02 22:38:00
-P014,Registration,2026-10-03 10:32:00
-P014,Triage,2026-10-03 10:36:00
-P014,Doctor,2026-10-03 10:44:00
-P014,Discharge,2026-10-03 11:02:00
-P015,Registration,2026-10-02 07:21:00
-P015,Triage,2026-10-02 07:27:00
-P015,Doctor,2026-10-02 07:35:00
-P015,Discharge,2026-10-02 07:50:00
-P016,Registration,2026-10-03 11:48:00
-P016,Triage,2026-10-03 11:52:00
-P016,Doctor,2026-10-03 12:07:00
-P016,Discharge,2026-10-03 12:34:00
-P017,Registration,2026-10-03 04:16:00
-P017,Triage,2026-10-03 04:24:00
-P017,Doctor,2026-10-03 04:29:00
-P017,Discharge,2026-10-03 04:46:00
-P018,Registration,2026-10-03 03:04:00
-P018,Triage,2026-10-03 03:09:00
-P018,Doctor,2026-10-03 03:18:00
-P018,Discharge,2026-10-03 03:30:00
-P019,Registration,2026-10-03 02:57:00
-P019,Triage,2026-10-03 03:00:00
-P019,Doctor,2026-10-03 03:15:00
-P019,Discharge,2026-10-03 03:40:00
-P020,Registration,2026-10-03 22:38:00
-P020,Triage,2026-10-03 22:41:00
-P020,Doctor,2026-10-03 22:50:00
-P020,Discharge,2026-10-03 23:04:00
-P021,Registration,2026-10-02 19:52:00
-P021,Triage,2026-10-02 19:59:00
-P021,Doctor,2026-10-02 20:13:00
-P021,Discharge,2026-10-02 20:36:00
-P022,Registration,2026-10-03 09:25:00
-P022,Triage,2026-10-03 09:28:00
-P022,Doctor,2026-10-03 09:35:00
-P022,Discharge,2026-10-03 10:01:00
-P023,Registration,2026-10-01 20:24:00
-P023,Triage,2026-10-01 20:32:00
-P023,Doctor,2026-10-01 20:37:00
-P023,Discharge,2026-10-01 20:50:00
-P024,Registration,2026-10-02 05:50:00
-P024,Triage,2026-10-02 05:58:00
-P024,Doctor,2026-10-02 06:13:00
-P024,Discharge,2026-10-02 06:36:00
-P025,Registration,2026-10-03 12:32:00
-P025,Triage,2026-10-03 12:37:00
-P025,Doctor,2026-10-03 12:51:00
-P025,Discharge,2026-10-03 13:15:00
-P026,Registration,2026-10-01 09:34:00
-P026,Triage,2026-10-01 09:41:00
-P026,Doctor,2026-10-01 09:47:00
-P026,Discharge,2026-10-01 10:14:00
-P027,Registration,2026-10-03 06:26:00
-P027,Triage,2026-10-03 06:28:00
-P027,Doctor,2026-10-03 06:37:00
-P027,Discharge,2026-10-03 07:00:00
-P028,Registration,2026-10-03 21:56:00
-P028,Triage,2026-10-03 21:58:00
-P028,Doctor,2026-10-03 22:07:00
-P028,Discharge,2026-10-03 22:33:00
-P029,Registration,2026-10-04 05:18:00
-P029,Triage,2026-10-04 05:20:00
-P029,Doctor,2026-10-04 05:35:00
-P029,Discharge,2026-10-04 05:54:00
-P030,Registration,2026-10-02 04:52:00
-P030,Triage,2026-10-02 04:56:00
-P030,Doctor,2026-10-02 05:03:00
-P030,Discharge,2026-10-02 05:30:00
-P031,Registration,2026-10-03 04:15:00
-P031,Triage,2026-10-03 04:20:00
-P031,Doctor,2026-10-03 04:25:00
-P031,Discharge,2026-10-03 04:38:00
-P032,Registration,2026-10-03 01:59:00
-P032,Triage,2026-10-03 02:02:00
-P032,Doctor,2026-10-03 02:07:00
-P032,Discharge,2026-10-03 02:24:00
-P033,Registration,2026-10-01 19:41:00
-P033,Triage,2026-10-01 19:48:00
-P033,Doctor,2026-10-01 20:00:00
-P033,Discharge,2026-10-01 20:12:00
-P034,Registration,2026-10-02 01:31:00
-P034,Triage,2026-10-02 01:38:00
-P034,Doctor,2026-10-02 01:50:00
-P034,Discharge,2026-10-02 02:17:00
-P035,Registration,2026-10-02 20:11:00
-P035,Triage,2026-10-02 20:17:00
-P035,Doctor,2026-10-02 20:31:00
-P035,Discharge,2026-10-02 20:54:00
-P036,Registration,2026-10-02 11:27:00
-P036,Triage,2026-10-02 11:34:00
-P036,Doctor,2026-10-02 11:43:00
-P036,Discharge,2026-10-02 12:05:00
-P037,Registration,2026-10-03 19:48:00
-P037,Triage,2026-10-03 19:54:00
-P037,Doctor,2026-10-03 20:06:00
-P037,Discharge,2026-10-03 20:19:00
-P038,Registration,2026-10-02 14:40:00
-P038,Triage,2026-10-02 14:42:00
-P038,Doctor,2026-10-02 14:52:00
-P038,Discharge,2026-10-02 15:02:00
-P039,Registration,2026-10-02 14:04:00
-P039,Triage,2026-10-02 14:06:00
-P039,Doctor,2026-10-02 14:12:00
-P039,Discharge,2026-10-02 14:42:00
-P040,Registration,2026-10-02 15:15:00
-P040,Triage,2026-10-02 15:17:00
-P040,Doctor,2026-10-02 15:22:00
-P040,Discharge,2026-10-02 15:42:00
-P041,Registration,2026-10-04 06:11:00
-P041,Triage,2026-10-04 06:14:00
-P041,Doctor,2026-10-04 06:23:00
-P041,Discharge,2026-10-04 06:48:00
-P042,Registration,2026-10-02 02:03:00
-P042,Triage,2026-10-02 02:10:00
-P042,Doctor,2026-10-02 02:24:00
-P042,Discharge,2026-10-02 02:52:00
-P043,Registration,2026-10-02 17:10:00
-P043,Triage,2026-10-02 17:18:00
-P043,Doctor,2026-10-02 17:30:00
-P043,Discharge,2026-10-02 17:53:00
-P044,Registration,2026-10-01 20:52:00
-P044,Triage,2026-10-01 20:54:00
-P044,Doctor,2026-10-01 21:09:00
-P044,Discharge,2026-10-01 21:32:00
-P045,Registration,2026-10-03 17:49:00
-P045,Triage,2026-10-03 17:54:00
-P045,Doctor,2026-10-03 18:06:00
-P045,Discharge,2026-10-03 18:17:00
-P046,Registration,2026-10-01 16:16:00
-P046,Triage,2026-10-01 16:21:00
-P046,Doctor,2026-10-01 16:31:00
-P046,Discharge,2026-10-01 16:44:00
-P047,Registration,2026-10-02 10:09:00
-P047,Triage,2026-10-02 10:12:00
-P047,Doctor,2026-10-02 10:25:00
-P047,Discharge,2026-10-02 10:49:00
-P048,Registration,2026-10-03 17:36:00
-P048,Triage,2026-10-03 17:39:00
-P048,Doctor,2026-10-03 17:48:00
-P048,Discharge,2026-10-03 18:12:00
-P049,Registration,2026-10-01 18:17:00
-P049,Triage,2026-10-01 18:22:00
-P049,Doctor,2026-10-01 18:35:00
-P049,Discharge,2026-10-01 18:48:00
-P050,Registration,2026-10-01 10:00:00
-P050,Triage,2026-10-01 10:02:00
-P050,Doctor,2026-10-01 10:10:00
-P050,Discharge,2026-10-01 10:25:00
-P051,Registration,2026-10-04 02:18:00
-P051,Triage,2026-10-04 02:23:00
-P051,Doctor,2026-10-04 02:31:00
-P051,Discharge,2026-10-04 02:53:00
-P052,Registration,2026-10-02 06:28:00
-P052,Triage,2026-10-02 06:33:00
-P052,Doctor,2026-10-02 06:38:00
-P052,Discharge,2026-10-02 07:00:00
-P053,Registration,2026-10-03 22:07:00
-P053,Triage,2026-10-03 22:11:00
-P053,Doctor,2026-10-03 22:22:00
-P053,Discharge,2026-10-03 22:49:00
-P054,Registration,2026-10-02 05:08:00
-P054,Triage,2026-10-02 05:11:00
-P054,Doctor,2026-10-02 05:20:00
-P054,Discharge,2026-10-02 05:36:00
-P055,Registration,2026-10-01 16:19:00
-P055,Triage,2026-10-01 16:26:00
-P055,Doctor,2026-10-01 16:36:00
-P055,Discharge,2026-10-01 16:47:00
-P056,Registration,2026-10-04 01:05:00
-P056,Triage,2026-10-04 01:11:00
-P056,Doctor,2026-10-04 01:24:00
-P056,Discharge,2026-10-04 01:39:00
-P057,Registration,2026-10-04 05:20:00
-P057,Triage,2026-10-04 05:22:00
-P057,Doctor,2026-10-04 05:29:00
-P057,Discharge,2026-10-04 05:41:00
-P058,Registration,2026-10-02 16:06:00
-P058,Triage,2026-10-02 16:11:00
-P058,Doctor,2026-10-02 16:17:00
-P058,Discharge,2026-10-02 16:45:00
-P059,Registration,2026-10-01 13:25:00
-P059,Triage,2026-10-01 13:31:00
-P059,Doctor,2026-10-01 13:37:00
-P059,Discharge,2026-10-01 14:00:00
-P060,Registration,2026-10-02 19:36:00
-P060,Triage,2026-10-02 19:39:00
-P060,Doctor,2026-10-02 19:54:00
-P060,Discharge,2026-10-02 20:14:00
-P061,Registration,2026-10-02 20:15:00
-P061,Triage,2026-10-02 20:20:00
-P061,Doctor,2026-10-02 20:27:00
-P061,Discharge,2026-10-02 20:57:00
-P062,Registration,2026-10-03 22:25:00
-P062,Triage,2026-10-03 22:29:00
-P062,Doctor,2026-10-03 22:35:00
-P062,Discharge,2026-10-03 22:45:00
-P063,Registration,2026-10-01 21:39:00
-P063,Triage,2026-10-01 21:41:00
-P063,Doctor,2026-10-01 21:54:00
-P063,Discharge,2026-10-01 22:10:00
-P064,Registration,2026-10-02 02:05:00
-P064,Triage,2026-10-02 02:09:00
-P064,Doctor,2026-10-02 02:15:00
-P064,Discharge,2026-10-02 02:32:00
-P065,Registration,2026-10-02 22:54:00
-P065,Triage,2026-10-02 22:57:00
-P065,Doctor,2026-10-02 23:09:00
-P065,Discharge,2026-10-02 23:36:00
-P066,Registration,2026-10-01 09:04:00
-P066,Triage,2026-10-01 09:11:00
-P066,Doctor,2026-10-01 09:24:00
-P066,Discharge,2026-10-01 09:43:00
-P067,Registration,2026-10-02 02:20:00
-P067,Triage,2026-10-02 02:24:00
-P067,Doctor,2026-10-02 02:30:00
-P067,Discharge,2026-10-02 02:43:00
-P068,Registration,2026-10-02 21:11:00
-P068,Triage,2026-10-02 21:15:00
-P068,Doctor,2026-10-02 21:29:00
-P068,Discharge,2026-10-02 21:45:00
-P069,Registration,2026-10-02 11:47:00
-P069,Triage,2026-10-02 11:54:00
-P069,Doctor,2026-10-02 12:09:00
-P069,Discharge,2026-10-02 12:27:00
-P070,Registration,2026-10-02 18:17:00
-P070,Triage,2026-10-02 18:25:00
-P070,Doctor,2026-10-02 18:30:00
-P070,Discharge,2026-10-02 18:42:00
-P071,Registration,2026-10-02 21:46:00
-P071,Triage,2026-10-02 21:48:00
-P071,Doctor,2026-10-02 21:53:00
-P071,Discharge,2026-10-02 22:13:00
-P072,Registration,2026-10-02 19:45:00
-P072,Triage,2026-10-02 19:48:00
-P072,Doctor,2026-10-02 20:00:00
-P072,Discharge,2026-10-02 20:27:00
-P073,Registration,2026-10-01 09:19:00
-P073,Triage,2026-10-01 09:21:00
-P073,Doctor,2026-10-01 09:27:00
-P073,Discharge,2026-10-01 09:41:00
-P074,Registration,2026-10-03 10:24:00
-P074,Triage,2026-10-03 10:30:00
-P074,Doctor,2026-10-03 10:43:00
-P074,Discharge,2026-10-03 10:57:00
-P075,Registration,2026-10-02 01:24:00
-P075,Triage,2026-10-02 01:26:00
-P075,Doctor,2026-10-02 01:35:00
-P075,Discharge,2026-10-02 01:56:00
-P076,Registration,2026-10-03 08:51:00
-P076,Triage,2026-10-03 08:54:00
-P076,Doctor,2026-10-03 09:09:00
-P076,Discharge,2026-10-03 09:26:00
-P077,Registration,2026-10-03 08:17:00
-P077,Triage,2026-10-03 08:25:00
-P077,Doctor,2026-10-03 08:38:00
-P077,Discharge,2026-10-03 09:01:00
-P078,Registration,2026-10-02 16:19:00
-P078,Triage,2026-10-02 16:27:00
-P078,Doctor,2026-10-02 16:34:00
-P078,Discharge,2026-10-02 16:49:00
-P079,Registration,2026-10-01 11:23:00
-P079,Triage,2026-10-01 11:26:00
-P079,Doctor,2026-10-01 11:36:00
-P079,Discharge,2026-10-01 11:59:00
-P080,Registration,2026-10-02 20:25:00
-P080,Triage,2026-10-02 20:28:00
-P080,Doctor,2026-10-02 20:34:00
-P080,Discharge,2026-10-02 20:56:00
-P081,Registration,2026-10-04 00:15:00
-P081,Triage,2026-10-04 00:18:00
-P081,Doctor,2026-10-04 00:26:00
-P081,Discharge,2026-10-04 00:50:00
-P082,Registration,2026-10-03 01:40:00
-P082,Triage,2026-10-03 01:48:00
-P082,Doctor,2026-10-03 01:56:00
-P082,Discharge,2026-10-03 02:13:00
-P083,Registration,2026-10-02 10:22:00
-P083,Triage,2026-10-02 10:27:00
-P083,Doctor,2026-10-02 10:37:00
-P083,Discharge,2026-10-02 10:55:00
-P084,Registration,2026-10-02 22:06:00
-P084,Triage,2026-10-02 22:10:00
-P084,Doctor,2026-10-02 22:25:00
-P084,Discharge,2026-10-02 22:51:00
-P085,Registration,2026-10-03 05:12:00
-P085,Triage,2026-10-03 05:14:00
-P085,Doctor,2026-10-03 05:20:00
-P085,Discharge,2026-10-03 05:38:00
-P086,Registration,2026-10-02 20:14:00
-P086,Triage,2026-10-02 20:16:00
-P086,Doctor,2026-10-02 20:22:00
-P086,Discharge,2026-10-02 20:51:00
-P087,Registration,2026-10-03 07:11:00
-P087,Triage,2026-10-03 07:18:00
-P087,Doctor,2026-10-03 07:28:00
-P087,Discharge,2026-10-03 07:51:00
-P088,Registration,2026-10-03 12:35:00
-P088,Triage,2026-10-03 12:41:00
-P088,Doctor,2026-10-03 12:49:00
-P088,Discharge,2026-10-03 13:07:00
-P089,Registration,2026-10-03 19:32:00
-P089,Triage,2026-10-03 19:34:00
-P089,Doctor,2026-10-03 19:47:00
-P089,Discharge,2026-10-03 20:14:00
-P090,Registration,2026-10-03 09:43:00
-P090,Triage,2026-10-03 09:48:00
-P090,Doctor,2026-10-03 09:54:00
-P090,Discharge,2026-10-03 10:14:00
-P091,Registration,2026-10-02 01:00:00
-P091,Triage,2026-10-02 01:07:00
-P091,Doctor,2026-10-02 01:16:00
-P091,Discharge,2026-10-02 01:42:00
-P092,Registration,2026-10-03 15:45:00
-P092,Triage,2026-10-03 15:49:00
-P092,Doctor,2026-10-03 16:00:00
-P092,Discharge,2026-10-03 16:19:00
-P093,Registration,2026-10-02 10:11:00
-P093,Triage,2026-10-02 10:16:00
-P093,Doctor,2026-10-02 10:31:00
-P093,Discharge,2026-10-02 10:53:00
-P094,Registration,2026-10-03 01:05:00
-P094,Triage,2026-10-03 01:10:00
-P094,Doctor,2026-10-03 01:23:00
-P094,Discharge,2026-10-03 01:33:00
-P095,Registration,2026-10-02 23:10:00
-P095,Triage,2026-10-02 23:13:00
-P095,Doctor,2026-10-02 23:24:00
-P095,Discharge,2026-10-02 23:52:00
-P096,Registration,2026-10-03 23:29:00
-P096,Triage,2026-10-03 23:34:00
-P096,Doctor,2026-10-03 23:46:00
-P096,Discharge,2026-10-04 00:02:00
-P097,Registration,2026-10-02 07:10:00
-P097,Triage,2026-10-02 07:17:00
-P097,Doctor,2026-10-02 07:23:00
-P097,Discharge,2026-10-02 07:42:00
-P098,Registration,2026-10-01 20:45:00
-P098,Triage,2026-10-01 20:53:00
-P098,Doctor,2026-10-01 21:01:00
-P098,Discharge,2026-10-01 21:20:00
-P099,Registration,2026-10-02 11:11:00
-P099,Triage,2026-10-02 11:14:00
-P099,Doctor,2026-10-02 11:19:00
-P099,Discharge,2026-10-02 11:30:00
-P100,Registration,2026-10-04 00:52:00
-P100,Triage,2026-10-04 00:58:00
-P100,Doctor,2026-10-04 01:04:00
-P100,Discharge,2026-10-04 01:28:00
+Case_ID,Activity,Timestamp,Condition,Age_Group
+P001,Registration,2026-10-01 23:12:00,Fracture or injury,Adult
+P001,Triage,2026-10-01 23:15:00,Fracture or injury,Adult
+P001,Doctor Consultation,2026-10-01 23:22:00,Fracture or injury,Adult
+P001,Discharge,2026-10-01 23:35:00,Fracture or injury,Adult
+P002,Registration,2026-10-03 17:36:00,Fracture or injury,Child
+P002,Triage,2026-10-03 17:39:00,Fracture or injury,Child
+P002,Doctor Consultation,2026-10-03 17:52:00,Fracture or injury,Child
+P002,Discharge,2026-10-03 18:21:00,Fracture or injury,Child
+P003,Registration,2026-10-02 11:08:00,Minor illness,Adult
+P003,Triage,2026-10-02 11:13:00,Minor illness,Adult
+P003,Doctor Consultation,2026-10-02 11:21:00,Minor illness,Adult
+P003,Discharge,2026-10-02 11:45:00,Minor illness,Adult
+P004,Registration,2026-10-01 08:53:00,Minor illness,Child
+P004,Triage,2026-10-01 08:58:00,Minor illness,Child
+P004,Doctor Consultation,2026-10-01 09:08:00,Minor illness,Child
+P004,Discharge,2026-10-01 09:26:00,Minor illness,Child
+P005,Registration,2026-10-02 13:23:00,Minor illness,Adult
+P005,Triage,2026-10-02 13:25:00,Minor illness,Adult
+P005,Doctor Consultation,2026-10-02 13:36:00,Minor illness,Adult
+P005,Discharge,2026-10-02 13:49:00,Minor illness,Adult
+P006,Registration,2026-10-03 06:57:00,Stomach pain,Senior
+P006,Triage,2026-10-03 07:04:00,Stomach pain,Senior
+P006,Doctor Consultation,2026-10-03 07:16:00,Stomach pain,Senior
+P006,Discharge,2026-10-03 07:43:00,Stomach pain,Senior
+P007,Registration,2026-10-03 11:40:00,Fracture or injury,Adult
+P007,Triage,2026-10-03 11:47:00,Fracture or injury,Adult
+P007,Doctor Consultation,2026-10-03 12:01:00,Fracture or injury,Adult
+P007,Discharge,2026-10-03 12:22:00,Fracture or injury,Adult
+P008,Registration,2026-10-01 17:29:00,Fracture or injury,Adult
+P008,Triage,2026-10-01 17:33:00,Fracture or injury,Adult
+P008,Doctor Consultation,2026-10-01 17:39:00,Fracture or injury,Adult
+P008,Discharge,2026-10-01 17:56:00,Fracture or injury,Adult
+P009,Registration,2026-10-03 11:53:00,Fever or infection,Adult
+P009,Triage,2026-10-03 11:57:00,Fever or infection,Adult
+P009,Doctor Consultation,2026-10-03 12:04:00,Fever or infection,Adult
+P009,Discharge,2026-10-03 12:25:00,Fever or infection,Adult
+P010,Registration,2026-10-02 12:36:00,Minor illness,Adult
+P010,Triage,2026-10-02 12:43:00,Minor illness,Adult
+P010,Doctor Consultation,2026-10-02 12:58:00,Minor illness,Adult
+P010,Discharge,2026-10-02 13:10:00,Minor illness,Adult
+P011,Registration,2026-10-02 17:25:00,Chest pain,Adult
+P011,Triage,2026-10-02 17:32:00,Chest pain,Adult
+P011,Doctor Consultation,2026-10-02 17:45:00,Chest pain,Adult
+P011,Discharge,2026-10-02 18:02:00,Chest pain,Adult
+P012,Registration,2026-10-01 15:38:00,Chest pain,Child
+P012,Triage,2026-10-01 15:42:00,Chest pain,Child
+P012,Doctor Consultation,2026-10-01 15:53:00,Chest pain,Child
+P012,Discharge,2026-10-01 16:11:00,Chest pain,Child
+P013,Registration,2026-10-02 12:48:00,Minor illness,Adult
+P013,Triage,2026-10-02 12:55:00,Minor illness,Adult
+P013,Doctor Consultation,2026-10-02 13:05:00,Minor illness,Adult
+P013,Discharge,2026-10-02 13:21:00,Minor illness,Adult
+P014,Registration,2026-10-03 14:01:00,Minor illness,Adult
+P014,Triage,2026-10-03 14:04:00,Minor illness,Adult
+P014,Doctor Consultation,2026-10-03 14:13:00,Minor illness,Adult
+P014,Discharge,2026-10-03 14:27:00,Minor illness,Adult
+P015,Registration,2026-10-02 19:52:00,Minor illness,Adult
+P015,Triage,2026-10-02 19:58:00,Minor illness,Adult
+P015,Doctor Consultation,2026-10-02 20:09:00,Minor illness,Adult
+P015,Discharge,2026-10-02 20:30:00,Minor illness,Adult
+P016,Registration,2026-10-02 02:53:00,Stomach pain,Child
+P016,Triage,2026-10-02 02:55:00,Stomach pain,Child
+P016,Doctor Consultation,2026-10-02 03:01:00,Stomach pain,Child
+P016,Discharge,2026-10-02 03:15:00,Stomach pain,Child
+P017,Registration,2026-10-03 17:38:00,Stomach pain,Adult
+P017,Triage,2026-10-03 17:44:00,Stomach pain,Adult
+P017,Doctor Consultation,2026-10-03 17:56:00,Stomach pain,Adult
+P017,Discharge,2026-10-03 18:22:00,Stomach pain,Adult
+P018,Registration,2026-10-01 09:34:00,Minor illness,Child
+P018,Triage,2026-10-01 09:40:00,Minor illness,Child
+P018,Doctor Consultation,2026-10-01 09:49:00,Minor illness,Child
+P018,Discharge,2026-10-01 10:19:00,Minor illness,Child
+P019,Registration,2026-10-01 23:13:00,Fever or infection,Child
+P019,Triage,2026-10-01 23:15:00,Fever or infection,Child
+P019,Doctor Consultation,2026-10-01 23:24:00,Fever or infection,Child
+P019,Discharge,2026-10-01 23:50:00,Fever or infection,Child
+P020,Registration,2026-10-04 05:18:00,Minor illness,Senior
+P020,Triage,2026-10-04 05:22:00,Minor illness,Senior
+P020,Doctor Consultation,2026-10-04 05:37:00,Minor illness,Senior
+P020,Discharge,2026-10-04 06:03:00,Minor illness,Senior
+P021,Registration,2026-10-02 04:52:00,Fever or infection,Child
+P021,Triage,2026-10-02 05:00:00,Fever or infection,Child
+P021,Doctor Consultation,2026-10-02 05:13:00,Fever or infection,Child
+P021,Discharge,2026-10-02 05:23:00,Fever or infection,Child
+P022,Registration,2026-10-04 02:42:00,Fracture or injury,Senior
+P022,Triage,2026-10-04 02:50:00,Fracture or injury,Senior
+P022,Doctor Consultation,2026-10-04 02:59:00,Fracture or injury,Senior
+P022,Discharge,2026-10-04 03:16:00,Fracture or injury,Senior
+P023,Registration,2026-10-02 16:53:00,Minor illness,Senior
+P023,Triage,2026-10-02 16:55:00,Minor illness,Senior
+P023,Doctor Consultation,2026-10-02 17:07:00,Minor illness,Senior
+P023,Discharge,2026-10-02 17:19:00,Minor illness,Senior
+P024,Registration,2026-10-02 01:31:00,Minor illness,Senior
+P024,Triage,2026-10-02 01:34:00,Minor illness,Senior
+P024,Doctor Consultation,2026-10-02 01:43:00,Minor illness,Senior
+P024,Discharge,2026-10-02 02:09:00,Minor illness,Senior
+P025,Registration,2026-10-02 12:55:00,Minor illness,Senior
+P025,Triage,2026-10-02 13:02:00,Minor illness,Senior
+P025,Doctor Consultation,2026-10-02 13:10:00,Minor illness,Senior
+P025,Discharge,2026-10-02 13:29:00,Minor illness,Senior
+P026,Registration,2026-10-03 10:59:00,Fever or infection,Adult
+P026,Triage,2026-10-03 11:01:00,Fever or infection,Adult
+P026,Doctor Consultation,2026-10-03 11:09:00,Fever or infection,Adult
+P026,Discharge,2026-10-03 11:26:00,Fever or infection,Adult
+P027,Registration,2026-10-03 06:09:00,Fracture or injury,Adult
+P027,Triage,2026-10-03 06:15:00,Fracture or injury,Adult
+P027,Doctor Consultation,2026-10-03 06:23:00,Fracture or injury,Adult
+P027,Discharge,2026-10-03 06:33:00,Fracture or injury,Adult
+P028,Registration,2026-10-01 16:02:00,Chest pain,Senior
+P028,Triage,2026-10-01 16:10:00,Chest pain,Senior
+P028,Doctor Consultation,2026-10-01 16:20:00,Chest pain,Senior
+P028,Discharge,2026-10-01 16:32:00,Chest pain,Senior
+P029,Registration,2026-10-02 22:01:00,Minor illness,Adult
+P029,Triage,2026-10-02 22:04:00,Minor illness,Adult
+P029,Doctor Consultation,2026-10-02 22:18:00,Minor illness,Adult
+P029,Discharge,2026-10-02 22:46:00,Minor illness,Adult
+P030,Registration,2026-10-02 17:10:00,Minor illness,Senior
+P030,Triage,2026-10-02 17:13:00,Minor illness,Senior
+P030,Doctor Consultation,2026-10-02 17:19:00,Minor illness,Senior
+P030,Discharge,2026-10-02 17:32:00,Minor illness,Senior
+P031,Registration,2026-10-03 08:22:00,Fever or infection,Adult
+P031,Triage,2026-10-03 08:29:00,Fever or infection,Adult
+P031,Doctor Consultation,2026-10-03 08:34:00,Fever or infection,Adult
+P031,Discharge,2026-10-03 09:04:00,Fever or infection,Adult
+P032,Registration,2026-10-01 16:16:00,Fever or infection,Adult
+P032,Triage,2026-10-01 16:24:00,Fever or infection,Adult
+P032,Doctor Consultation,2026-10-01 16:30:00,Fever or infection,Adult
+P032,Discharge,2026-10-01 16:47:00,Fever or infection,Adult
+P033,Registration,2026-10-02 09:58:00,Stomach pain,Child
+P033,Triage,2026-10-02 10:01:00,Stomach pain,Child
+P033,Doctor Consultation,2026-10-02 10:10:00,Stomach pain,Child
+P033,Discharge,2026-10-02 10:34:00,Stomach pain,Child
+P034,Registration,2026-10-01 18:17:00,Fever or infection,Senior
+P034,Triage,2026-10-01 18:23:00,Fever or infection,Senior
+P034,Doctor Consultation,2026-10-01 18:29:00,Fever or infection,Senior
+P034,Discharge,2026-10-01 18:40:00,Fever or infection,Senior
+P035,Registration,2026-10-01 20:44:00,Minor illness,Senior
+P035,Triage,2026-10-01 20:47:00,Minor illness,Senior
+P035,Doctor Consultation,2026-10-01 20:58:00,Minor illness,Senior
+P035,Discharge,2026-10-01 21:23:00,Minor illness,Senior
+P036,Registration,2026-10-02 13:11:00,Minor illness,Senior
+P036,Triage,2026-10-02 13:14:00,Minor illness,Senior
+P036,Doctor Consultation,2026-10-02 13:25:00,Minor illness,Senior
+P036,Discharge,2026-10-02 13:35:00,Minor illness,Senior
+P037,Registration,2026-10-02 20:12:00,Minor illness,Senior
+P037,Triage,2026-10-02 20:16:00,Minor illness,Senior
+P037,Doctor Consultation,2026-10-02 20:27:00,Minor illness,Senior
+P037,Discharge,2026-10-02 20:54:00,Minor illness,Senior
+P038,Registration,2026-10-02 05:08:00,Chest pain,Adult
+P038,Triage,2026-10-02 05:10:00,Chest pain,Adult
+P038,Doctor Consultation,2026-10-02 05:24:00,Chest pain,Adult
+P038,Discharge,2026-10-02 05:51:00,Chest pain,Adult
+P039,Registration,2026-10-03 02:49:00,Fracture or injury,Adult
+P039,Triage,2026-10-03 02:55:00,Fracture or injury,Adult
+P039,Doctor Consultation,2026-10-03 03:08:00,Fracture or injury,Adult
+P039,Discharge,2026-10-03 03:23:00,Fracture or injury,Adult
+P040,Registration,2026-10-04 05:20:00,Fracture or injury,Child
+P040,Triage,2026-10-04 05:26:00,Fracture or injury,Child
+P040,Doctor Consultation,2026-10-04 05:32:00,Fracture or injury,Child
+P040,Discharge,2026-10-04 05:49:00,Fracture or injury,Child
+P041,Registration,2026-10-02 00:22:00,Minor illness,Adult
+P041,Triage,2026-10-02 00:28:00,Minor illness,Adult
+P041,Doctor Consultation,2026-10-02 00:42:00,Minor illness,Adult
+P041,Discharge,2026-10-02 00:53:00,Minor illness,Adult
+P042,Registration,2026-10-03 17:14:00,Minor illness,Adult
+P042,Triage,2026-10-03 17:18:00,Minor illness,Adult
+P042,Doctor Consultation,2026-10-03 17:27:00,Minor illness,Adult
+P042,Discharge,2026-10-03 17:43:00,Minor illness,Adult
+P043,Registration,2026-10-02 16:35:00,Fever or infection,Child
+P043,Triage,2026-10-02 16:42:00,Fever or infection,Child
+P043,Doctor Consultation,2026-10-02 16:51:00,Fever or infection,Child
+P043,Discharge,2026-10-02 17:15:00,Fever or infection,Child
+P044,Registration,2026-10-01 17:54:00,Fracture or injury,Adult
+P044,Triage,2026-10-01 18:00:00,Fracture or injury,Adult
+P044,Doctor Consultation,2026-10-01 18:06:00,Fracture or injury,Adult
+P044,Discharge,2026-10-01 18:18:00,Fracture or injury,Adult
+P045,Registration,2026-10-04 05:04:00,Fever or infection,Senior
+P045,Triage,2026-10-04 05:06:00,Fever or infection,Senior
+P045,Doctor Consultation,2026-10-04 05:14:00,Fever or infection,Senior
+P045,Discharge,2026-10-04 05:35:00,Fever or infection,Senior
+P046,Registration,2026-10-02 05:32:00,Fever or infection,Adult
+P046,Triage,2026-10-02 05:36:00,Fever or infection,Adult
+P046,Doctor Consultation,2026-10-02 05:50:00,Fever or infection,Adult
+P046,Discharge,2026-10-02 06:20:00,Fever or infection,Adult
+P047,Registration,2026-10-03 00:52:00,Minor illness,Child
+P047,Triage,2026-10-03 00:55:00,Minor illness,Child
+P047,Doctor Consultation,2026-10-03 01:04:00,Minor illness,Child
+P047,Discharge,2026-10-03 01:17:00,Minor illness,Child
+P048,Registration,2026-10-02 05:13:00,Fever or infection,Adult
+P048,Triage,2026-10-02 05:20:00,Fever or infection,Adult
+P048,Doctor Consultation,2026-10-02 05:30:00,Fever or infection,Adult
+P048,Discharge,2026-10-02 05:46:00,Fever or infection,Adult
+P049,Registration,2026-10-04 05:00:00,Fever or infection,Senior
+P049,Triage,2026-10-04 05:08:00,Fever or infection,Senior
+P049,Doctor Consultation,2026-10-04 05:13:00,Fever or infection,Senior
+P049,Discharge,2026-10-04 05:25:00,Fever or infection,Senior
+P050,Registration,2026-10-02 21:46:00,Fracture or injury,Adult
+P050,Triage,2026-10-02 21:49:00,Fracture or injury,Adult
+P050,Doctor Consultation,2026-10-02 22:04:00,Fracture or injury,Adult
+P050,Discharge,2026-10-02 22:22:00,Fracture or injury,Adult
+P051,Registration,2026-10-03 20:19:00,Stomach pain,Adult
+P051,Triage,2026-10-03 20:21:00,Stomach pain,Adult
+P051,Doctor Consultation,2026-10-03 20:27:00,Stomach pain,Adult
+P051,Discharge,2026-10-03 20:39:00,Stomach pain,Adult
+P052,Registration,2026-10-01 12:55:00,Minor illness,Adult
+P052,Triage,2026-10-01 12:58:00,Minor illness,Adult
+P052,Doctor Consultation,2026-10-01 13:09:00,Minor illness,Adult
+P052,Discharge,2026-10-01 13:23:00,Minor illness,Adult
+P053,Registration,2026-10-03 02:05:00,Fever or infection,Senior
+P053,Triage,2026-10-03 02:13:00,Fever or infection,Senior
+P053,Doctor Consultation,2026-10-03 02:18:00,Fever or infection,Senior
+P053,Discharge,2026-10-03 02:39:00,Fever or infection,Senior
+P054,Registration,2026-10-02 18:04:00,Minor illness,Adult
+P054,Triage,2026-10-02 18:10:00,Minor illness,Adult
+P054,Doctor Consultation,2026-10-02 18:21:00,Minor illness,Adult
+P054,Discharge,2026-10-02 18:50:00,Minor illness,Adult
+P055,Registration,2026-10-02 16:19:00,Minor illness,Senior
+P055,Triage,2026-10-02 16:27:00,Minor illness,Senior
+P055,Doctor Consultation,2026-10-02 16:34:00,Minor illness,Senior
+P055,Discharge,2026-10-02 16:57:00,Minor illness,Senior
+P056,Registration,2026-10-02 08:29:00,Minor illness,Adult
+P056,Triage,2026-10-02 08:34:00,Minor illness,Adult
+P056,Doctor Consultation,2026-10-02 08:49:00,Minor illness,Adult
+P056,Discharge,2026-10-02 09:06:00,Minor illness,Adult
+P057,Registration,2026-10-02 05:44:00,Minor illness,Child
+P057,Triage,2026-10-02 05:52:00,Minor illness,Child
+P057,Doctor Consultation,2026-10-02 05:57:00,Minor illness,Child
+P057,Discharge,2026-10-02 06:22:00,Minor illness,Child
+P058,Registration,2026-10-02 11:14:00,Minor illness,Adult
+P058,Triage,2026-10-02 11:18:00,Minor illness,Adult
+P058,Doctor Consultation,2026-10-02 11:26:00,Minor illness,Adult
+P058,Discharge,2026-10-02 11:43:00,Minor illness,Adult
+P059,Registration,2026-10-02 10:22:00,Fever or infection,Adult
+P059,Triage,2026-10-02 10:24:00,Fever or infection,Adult
+P059,Doctor Consultation,2026-10-02 10:33:00,Fever or infection,Adult
+P059,Discharge,2026-10-02 10:54:00,Fever or infection,Adult
+P060,Registration,2026-10-03 05:12:00,Minor illness,Child
+P060,Triage,2026-10-03 05:16:00,Minor illness,Child
+P060,Doctor Consultation,2026-10-03 05:23:00,Minor illness,Child
+P060,Discharge,2026-10-03 05:51:00,Minor illness,Child
+P061,Registration,2026-10-01 13:13:00,Fracture or injury,Adult
+P061,Triage,2026-10-01 13:20:00,Fracture or injury,Adult
+P061,Doctor Consultation,2026-10-01 13:30:00,Fracture or injury,Adult
+P061,Discharge,2026-10-01 13:53:00,Fracture or injury,Adult
+P062,Registration,2026-10-03 12:35:00,Minor illness,Child
+P062,Triage,2026-10-03 12:37:00,Minor illness,Child
+P062,Doctor Consultation,2026-10-03 12:48:00,Minor illness,Child
+P062,Discharge,2026-10-03 12:58:00,Minor illness,Child
+P063,Registration,2026-10-03 09:43:00,Fever or infection,Senior
+P063,Triage,2026-10-03 09:47:00,Fever or infection,Senior
+P063,Doctor Consultation,2026-10-03 10:01:00,Fever or infection,Senior
+P063,Discharge,2026-10-03 10:21:00,Fever or infection,Senior
+P064,Registration,2026-10-03 01:00:00,Stomach pain,Adult
+P064,Triage,2026-10-03 01:04:00,Stomach pain,Adult
+P064,Doctor Consultation,2026-10-03 01:15:00,Stomach pain,Adult
+P064,Discharge,2026-10-03 01:34:00,Stomach pain,Adult
+P065,Registration,2026-10-02 10:11:00,Fever or infection,Senior
+P065,Triage,2026-10-02 10:18:00,Fever or infection,Senior
+P065,Doctor Consultation,2026-10-02 10:25:00,Fever or infection,Senior
+P065,Discharge,2026-10-02 10:54:00,Fever or infection,Senior
+P066,Registration,2026-10-03 15:26:00,Stomach pain,Child
+P066,Triage,2026-10-03 15:30:00,Stomach pain,Child
+P066,Doctor Consultation,2026-10-03 15:38:00,Stomach pain,Child
+P066,Discharge,2026-10-03 16:01:00,Stomach pain,Child
+P067,Registration,2026-10-03 23:29:00,Fever or infection,Adult
+P067,Triage,2026-10-03 23:35:00,Fever or infection,Adult
+P067,Doctor Consultation,2026-10-03 23:47:00,Fever or infection,Adult
+P067,Discharge,2026-10-04 00:02:00,Fever or infection,Adult
+P068,Registration,2026-10-02 22:44:00,Stomach pain,Adult
+P068,Triage,2026-10-02 22:48:00,Stomach pain,Adult
+P068,Doctor Consultation,2026-10-02 22:54:00,Stomach pain,Adult
+P068,Discharge,2026-10-02 23:11:00,Stomach pain,Adult
+P069,Registration,2026-10-02 14:40:00,Minor illness,Child
+P069,Triage,2026-10-02 14:42:00,Minor illness,Child
+P069,Doctor Consultation,2026-10-02 14:50:00,Minor illness,Child
+P069,Discharge,2026-10-02 15:15:00,Minor illness,Child
+P070,Registration,2026-10-03 22:10:00,Fever or infection,Adult
+P070,Triage,2026-10-03 22:13:00,Fever or infection,Adult
+P070,Doctor Consultation,2026-10-03 22:24:00,Fever or infection,Adult
+P070,Discharge,2026-10-03 22:49:00,Fever or infection,Adult
+P071,Registration,2026-10-02 17:18:00,Fracture or injury,Adult
+P071,Triage,2026-10-02 17:26:00,Fracture or injury,Adult
+P071,Doctor Consultation,2026-10-02 17:32:00,Fracture or injury,Adult
+P071,Discharge,2026-10-02 17:55:00,Fracture or injury,Adult
+P072,Registration,2026-10-02 08:00:00,Minor illness,Adult
+P072,Triage,2026-10-02 08:05:00,Minor illness,Adult
+P072,Doctor Consultation,2026-10-02 08:10:00,Minor illness,Adult
+P072,Discharge,2026-10-02 08:37:00,Minor illness,Adult
+P073,Registration,2026-10-02 00:34:00,Fever or infection,Senior
+P073,Triage,2026-10-02 00:41:00,Fever or infection,Senior
+P073,Doctor Consultation,2026-10-02 00:54:00,Fever or infection,Senior
+P073,Discharge,2026-10-02 01:21:00,Fever or infection,Senior
+P074,Registration,2026-10-03 20:25:00,Stomach pain,Adult
+P074,Triage,2026-10-03 20:31:00,Stomach pain,Adult
+P074,Doctor Consultation,2026-10-03 20:42:00,Stomach pain,Adult
+P074,Discharge,2026-10-03 21:09:00,Stomach pain,Adult
+P075,Registration,2026-10-02 05:43:00,Minor illness,Adult
+P075,Triage,2026-10-02 05:47:00,Minor illness,Adult
+P075,Doctor Consultation,2026-10-02 05:55:00,Minor illness,Adult
+P075,Discharge,2026-10-02 06:25:00,Minor illness,Adult
+P076,Registration,2026-10-04 07:10:00,Fever or infection,Adult
+P076,Triage,2026-10-04 07:15:00,Fever or infection,Adult
+P076,Doctor Consultation,2026-10-04 07:21:00,Fever or infection,Adult
+P076,Discharge,2026-10-04 07:40:00,Fever or infection,Adult
+P077,Registration,2026-10-02 21:05:00,Fever or infection,Senior
+P077,Triage,2026-10-02 21:07:00,Fever or infection,Senior
+P077,Doctor Consultation,2026-10-02 21:14:00,Fever or infection,Senior
+P077,Discharge,2026-10-02 21:28:00,Fever or infection,Senior
+P078,Registration,2026-10-03 12:17:00,Minor illness,Adult
+P078,Triage,2026-10-03 12:19:00,Minor illness,Adult
+P078,Doctor Consultation,2026-10-03 12:30:00,Minor illness,Adult
+P078,Discharge,2026-10-03 12:53:00,Minor illness,Adult
+P079,Registration,2026-10-03 23:36:00,Fever or infection,Adult
+P079,Triage,2026-10-03 23:41:00,Fever or infection,Adult
+P079,Doctor Consultation,2026-10-03 23:52:00,Fever or infection,Adult
+P079,Discharge,2026-10-04 00:20:00,Fever or infection,Adult
+P080,Registration,2026-10-03 11:56:00,Fever or infection,Senior
+P080,Triage,2026-10-03 12:00:00,Fever or infection,Senior
+P080,Doctor Consultation,2026-10-03 12:11:00,Fever or infection,Senior
+P080,Discharge,2026-10-03 12:34:00,Fever or infection,Senior
+P081,Registration,2026-10-04 02:39:00,Chest pain,Adult
+P081,Triage,2026-10-04 02:41:00,Chest pain,Adult
+P081,Doctor Consultation,2026-10-04 02:52:00,Chest pain,Adult
+P081,Discharge,2026-10-04 03:12:00,Chest pain,Adult
+P082,Registration,2026-10-02 06:32:00,Minor illness,Senior
+P082,Triage,2026-10-02 06:38:00,Minor illness,Senior
+P082,Doctor Consultation,2026-10-02 06:51:00,Minor illness,Senior
+P082,Discharge,2026-10-02 07:01:00,Minor illness,Senior
+P083,Registration,2026-10-01 11:42:00,Fracture or injury,Adult
+P083,Triage,2026-10-01 11:50:00,Fracture or injury,Adult
+P083,Doctor Consultation,2026-10-01 12:02:00,Fracture or injury,Adult
+P083,Discharge,2026-10-01 12:17:00,Fracture or injury,Adult
+P084,Registration,2026-10-02 19:31:00,Fever or infection,Adult
+P084,Triage,2026-10-02 19:35:00,Fever or infection,Adult
+P084,Doctor Consultation,2026-10-02 19:45:00,Fever or infection,Adult
+P084,Discharge,2026-10-02 20:07:00,Fever or infection,Adult
+P085,Registration,2026-10-03 17:33:00,Fever or infection,Child
+P085,Triage,2026-10-03 17:35:00,Fever or infection,Child
+P085,Doctor Consultation,2026-10-03 17:48:00,Fever or infection,Child
+P085,Discharge,2026-10-03 17:59:00,Fever or infection,Child
+P086,Registration,2026-10-02 14:36:00,Minor illness,Senior
+P086,Triage,2026-10-02 14:43:00,Minor illness,Senior
+P086,Doctor Consultation,2026-10-02 14:48:00,Minor illness,Senior
+P086,Discharge,2026-10-02 14:58:00,Minor illness,Senior
+P087,Registration,2026-10-02 11:13:00,Minor illness,Adult
+P087,Triage,2026-10-02 11:16:00,Minor illness,Adult
+P087,Doctor Consultation,2026-10-02 11:23:00,Minor illness,Adult
+P087,Discharge,2026-10-02 11:48:00,Minor illness,Adult
+P088,Registration,2026-10-02 13:45:00,Fever or infection,Adult
+P088,Triage,2026-10-02 13:49:00,Fever or infection,Adult
+P088,Doctor Consultation,2026-10-02 13:56:00,Fever or infection,Adult
+P088,Discharge,2026-10-02 14:25:00,Fever or infection,Adult
+P089,Registration,2026-10-02 06:21:00,Minor illness,Child
+P089,Triage,2026-10-02 06:23:00,Minor illness,Child
+P089,Doctor Consultation,2026-10-02 06:32:00,Minor illness,Child
+P089,Discharge,2026-10-02 07:00:00,Minor illness,Child
+P090,Registration,2026-10-03 14:09:00,Minor illness,Child
+P090,Triage,2026-10-03 14:15:00,Minor illness,Child
+P090,Doctor Consultation,2026-10-03 14:30:00,Minor illness,Child
+P090,Discharge,2026-10-03 14:47:00,Minor illness,Child
+P091,Registration,2026-10-03 01:10:00,Minor illness,Adult
+P091,Triage,2026-10-03 01:12:00,Minor illness,Adult
+P091,Doctor Consultation,2026-10-03 01:26:00,Minor illness,Adult
+P091,Discharge,2026-10-03 01:37:00,Minor illness,Adult
+P092,Registration,2026-10-03 18:29:00,Minor illness,Child
+P092,Triage,2026-10-03 18:36:00,Minor illness,Child
+P092,Doctor Consultation,2026-10-03 18:46:00,Minor illness,Child
+P092,Discharge,2026-10-03 18:56:00,Minor illness,Child
+P093,Registration,2026-10-04 02:55:00,Fracture or injury,Senior
+P093,Triage,2026-10-04 03:02:00,Fracture or injury,Senior
+P093,Doctor Consultation,2026-10-04 03:14:00,Fracture or injury,Senior
+P093,Discharge,2026-10-04 03:28:00,Fracture or injury,Senior
+P094,Registration,2026-10-02 08:02:00,Minor illness,Senior
+P094,Triage,2026-10-02 08:06:00,Minor illness,Senior
+P094,Doctor Consultation,2026-10-02 08:20:00,Minor illness,Senior
+P094,Discharge,2026-10-02 08:47:00,Minor illness,Senior
+P095,Registration,2026-10-03 23:28:00,Fever or infection,Adult
+P095,Triage,2026-10-03 23:32:00,Fever or infection,Adult
+P095,Doctor Consultation,2026-10-03 23:42:00,Fever or infection,Adult
+P095,Discharge,2026-10-03 23:59:00,Fever or infection,Adult
+P096,Registration,2026-10-02 22:04:00,Minor illness,Adult
+P096,Triage,2026-10-02 22:09:00,Minor illness,Adult
+P096,Doctor Consultation,2026-10-02 22:23:00,Minor illness,Adult
+P096,Discharge,2026-10-02 22:52:00,Minor illness,Adult
+P097,Registration,2026-10-03 05:55:00,Fracture or injury,Senior
+P097,Triage,2026-10-03 05:58:00,Fracture or injury,Senior
+P097,Doctor Consultation,2026-10-03 06:10:00,Fracture or injury,Senior
+P097,Discharge,2026-10-03 06:26:00,Fracture or injury,Senior
+P098,Registration,2026-10-02 19:16:00,Fever or infection,Senior
+P098,Triage,2026-10-02 19:23:00,Fever or infection,Senior
+P098,Doctor Consultation,2026-10-02 19:32:00,Fever or infection,Senior
+P098,Discharge,2026-10-02 19:59:00,Fever or infection,Senior
+P099,Registration,2026-10-04 06:32:00,Minor illness,Child
+P099,Triage,2026-10-04 06:39:00,Minor illness,Child
+P099,Doctor Consultation,2026-10-04 06:50:00,Minor illness,Child
+P099,Discharge,2026-10-04 07:15:00,Minor illness,Child
+P100,Registration,2026-10-04 01:00:00,Stomach pain,Adult
+P100,Triage,2026-10-04 01:08:00,Stomach pain,Adult
+P100,Doctor Consultation,2026-10-04 01:13:00,Stomach pain,Adult
+P100,Discharge,2026-10-04 01:25:00,Stomach pain,Adult

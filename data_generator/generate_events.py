@@ -1,8 +1,9 @@
-"""CareFlow event log generator (v1).
+"""CareFlow event log generator (v2).
 
-Generates mock ER event logs for patients who follow the normal path:
-Registration -> Triage -> Doctor -> Discharge.
-Loop-backs, conditions, tests and wards are added in later versions.
+Generates mock ER event logs. Every patient now has a medical Condition and
+an Age_Group (case attributes). The path is still the normal one:
+Registration -> Triage -> Doctor Consultation -> Discharge.
+Tests, loop-backs, wards, pharmacy and billing come in later versions.
 """
 import csv
 import os
@@ -13,15 +14,41 @@ from datetime import datetime, timedelta
 DURATIONS = {
     "Registration": (2, 8),
     "Triage": (5, 15),
-    "Doctor": (10, 30),
+    "Doctor Consultation": (10, 30),
     "Discharge": (3, 10),
 }
 
-NORMAL_PATH = ["Registration", "Triage", "Doctor", "Discharge"]
+NORMAL_PATH = ["Registration", "Triage", "Doctor Consultation", "Discharge"]
+
+# Share of patients with each condition (from docs/process_design.md)
+CONDITION_SHARES = {
+    "Fracture or injury": 15,
+    "Chest pain": 10,
+    "Fever or infection": 25,
+    "Stomach pain": 15,
+    "Minor illness": 35,
+}
+
+# Share of patients in each age group (from docs/process_design.md)
+AGE_GROUP_SHARES = {
+    "Child": 20,
+    "Adult": 55,
+    "Senior": 25,
+}
+
+
+def pick(shares):
+    """Pick one key from a {name: share} dictionary, using the shares as weights."""
+    names = list(shares)
+    weights = list(shares.values())
+    return random.choices(names, weights=weights)[0]
 
 
 def generate_patient(case_id, arrival):
     """Create all event rows for one patient."""
+    condition = pick(CONDITION_SHARES)
+    age_group = pick(AGE_GROUP_SHARES)
+
     events = []
     current_time = arrival
     for activity in NORMAL_PATH:
@@ -29,6 +56,8 @@ def generate_patient(case_id, arrival):
             "Case_ID": case_id,
             "Activity": activity,
             "Timestamp": current_time,
+            "Condition": condition,
+            "Age_Group": age_group,
         })
         low, high = DURATIONS[activity]
         current_time += timedelta(minutes=random.randint(low, high))
@@ -47,8 +76,9 @@ def main():
     all_events.sort(key=lambda e: (e["Case_ID"], e["Timestamp"]))
 
     os.makedirs("data", exist_ok=True)
+    columns = ["Case_ID", "Activity", "Timestamp", "Condition", "Age_Group"]
     with open("data/event_log.csv", "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["Case_ID", "Activity", "Timestamp"])
+        writer = csv.DictWriter(f, fieldnames=columns)
         writer.writeheader()
         writer.writerows(all_events)
 
