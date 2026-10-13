@@ -26,6 +26,13 @@ to one step.
 | Stomach pain | 15% | 20% | 60% | 20% | General |
 | Minor illness | 35% | 5% | 15% | 2% | General |
 
+## Age groups
+| Age group | Share of patients |
+|---|---|
+| Child | 20% |
+| Adult | 55% |
+| Senior | 25% |
+
 ## Activities
 Registration, Triage, Doctor Consultation, X-Ray, Lab Test, Doctor Review,
 Ward Admission, Pharmacy, Billing, Discharge.
@@ -66,5 +73,7 @@ Registration, Triage, Doctor Consultation, (tests), Doctor Review (if tests),
 then Pharmacy and Billing or Ward Admission, then Discharge, with no return
 to an earlier step.
 
-## Next step
-Write data_generator/generate_events.py to produce this data.
+## Generator progress
+- v1: normal path only (Registration, Triage, Doctor Consultation, Discharge).
+- v2: adds Condition and Age_Group to every patient.
+- Next: tests (X-Ray, Lab Test), Doctor Review and the 40% loop-back.
