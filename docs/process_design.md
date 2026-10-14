@@ -74,6 +74,9 @@ then Pharmacy and Billing or Ward Admission, then Discharge, with no return
 to an earlier step.
 
 ## Generator progress
+## Generator progress
 - v1: normal path only (Registration, Triage, Doctor Consultation, Discharge).
 - v2: adds Condition and Age_Group to every patient.
-- Next: tests (X-Ray, Lab Test), Doctor Review and the 40% loop-back.
+- v3: adds X-Ray and Lab Test (chances depend on condition), Doctor Review,
+  and the 40% X-Ray to Triage loop-back.
+- Next: admission, wards, pharmacy, billing and busy-hour delays.
