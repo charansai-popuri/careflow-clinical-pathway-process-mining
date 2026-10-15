@@ -32,10 +32,15 @@ Python event log generator -> Google BigQuery -> dbt -> PM4Py -> Power BI
 - `data/` generated event logs
 
 ## Status
+
 - [x] ER process design
-- [x] Event log generator v1 (normal path only)
-- [ ] Loop-backs, conditions, tests and wards in the generator
+- [x] Event log generator v3 (conditions, age groups, X-Ray, lab test, doctor review, loop-back)
+- [ ] Generator v4: admission, wards, pharmacy, billing, busy-hour delays
 - [ ] BigQuery load
 - [ ] dbt models
 - [ ] PM4Py process discovery
 - [ ] Power BI dashboard
+
+## How to run
+
+python data_generator/generate_events.py
