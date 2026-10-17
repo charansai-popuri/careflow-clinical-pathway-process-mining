@@ -78,4 +78,5 @@ to an earlier step.
 - v2: adds Condition and Age_Group to every patient.
 - v3: adds X-Ray and Lab Test (chances depend on condition), Doctor Review,
   and the 40% X-Ray to Triage loop-back.
-- Next: admission, wards, pharmacy, billing and busy-hour delays.
+- v4: adds admission, the Ward column, Pharmacy and Billing.
+- Next: busy-hour delays and slow evening pharmacy, then scale to 10,000 patients.

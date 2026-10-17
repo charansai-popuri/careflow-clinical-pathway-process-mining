@@ -25,6 +25,9 @@ Python event log generator -> Google BigQuery -> dbt -> PM4Py -> Power BI
 | Case_ID | One patient visit |
 | Activity | The step that happened |
 | Timestamp | When it happened |
+| Condition | The patient's medical problem |
+| Age_Group | Child, Adult or Senior |
+| Ward | Ward name, filled only on the Ward Admission step |
 
 ## Project structure
 - `docs/` design documents (see `docs/process_design.md`)
@@ -32,15 +35,16 @@ Python event log generator -> Google BigQuery -> dbt -> PM4Py -> Power BI
 - `data/` generated event logs
 
 ## Status
-
 - [x] ER process design
-- [x] Event log generator v3 (conditions, age groups, X-Ray, lab test, doctor review, loop-back)
-- [ ] Generator v4: admission, wards, pharmacy, billing, busy-hour delays
+- [x] Event log generator v4 (conditions, age groups, tests, Doctor Review, loop-back, admission and wards, pharmacy, billing)
+- [ ] Busy-hour delays and slow evening pharmacy
+- [ ] Scale to 10,000 patients and validate the data
 - [ ] BigQuery load
 - [ ] dbt models
 - [ ] PM4Py process discovery
 - [ ] Power BI dashboard
 
 ## How to run
-
+```
 python data_generator/generate_events.py
+```
