@@ -1,4 +1,4 @@
-"""CareFlow event log generator (v4).
+"""CareFlow event log generator (v5).
 
 Generates mock ER event logs. Each patient has a Condition and an Age_Group
 (case attributes). The path depends on the condition:
@@ -13,7 +13,8 @@ Registration -> Triage -> Doctor Consultation
        Pharmacy (60% of patients) -> Billing
   -> Discharge
 
-Busy-hour delays and the slow evening pharmacy come in a later version.
+Waiting: during busy hours patients wait longer before the doctor, and the
+Pharmacy is slower in the evening.
 """
 import csv
 import os
@@ -57,12 +58,35 @@ LOOP_BACK_CHANCE = 0.40
 # Share of non-admitted patients who collect medicine at the Pharmacy
 PHARMACY_CHANCE = 0.60
 
+# Busy hours (24-hour clock). 10 means 10:00 to 10:59.
+BUSY_HOURS = [10, 11, 12, 13, 18, 19, 20, 21]
+EVENING_HOURS = [18, 19, 20, 21, 22]
+
+# Planted problems: extra waiting minutes (low, high) before a step starts.
+# "peak" is used when the patient reaches the step inside the listed hours.
+WAIT_RULES = {
+    "Doctor Consultation": {"hours": BUSY_HOURS, "peak": (20, 60), "normal": (0, 10)},
+    "Pharmacy": {"hours": EVENING_HOURS, "peak": (15, 45), "normal": (0, 5)},
+}
+
 
 def pick(shares):
     """Pick one key from a {name: share} dictionary, using the shares as weights."""
     names = list(shares)
     weights = list(shares.values())
     return random.choices(names, weights=weights)[0]
+
+
+def waiting_minutes(activity, clock):
+    """Extra minutes a patient waits before this step, based on the hour."""
+    rule = WAIT_RULES.get(activity)
+    if rule is None:
+        return 0  # most steps have no planted waiting
+    if clock.hour in rule["hours"]:
+        low, high = rule["peak"]
+    else:
+        low, high = rule["normal"]
+    return random.randint(low, high)
 
 
 def build_path(chances):
@@ -103,6 +127,8 @@ def generate_patient(case_id, arrival):
     events = []
     current_time = arrival
     for activity in path:
+        # Waiting happens before the step starts, so the timestamp is later
+        current_time += timedelta(minutes=waiting_minutes(activity, current_time))
         # Ward is an event attribute: only filled on the Ward Admission row
         ward = CONDITIONS[condition]["ward"] if activity == "Ward Admission" else ""
         events.append({
