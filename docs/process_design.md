@@ -54,6 +54,15 @@ Ward Admission, Pharmacy, Billing, Discharge.
 - Long waits at Doctor Consultation during busy hours.
 - Slow Pharmacy in the evening.
 
+## Waiting rules (planted problems)
+Waiting is extra time before a step starts, on top of the step's own duration.
+| Step | When | Extra wait (minutes) |
+|---|---|---|
+| Doctor Consultation | Busy hours: 10:00 to 14:00 and 18:00 to 22:00 | 20 to 60 |
+| Doctor Consultation | Other hours | 0 to 10 |
+| Pharmacy | Evening: 18:00 to 23:00 | 15 to 45 |
+| Pharmacy | Other hours | 0 to 5 |
+
 ## Assumed step durations (minutes)
 | Activity | Duration |
 |---|---|
