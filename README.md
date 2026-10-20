@@ -37,8 +37,8 @@ Python event log generator -> Google BigQuery -> dbt -> PM4Py -> Power BI
 ## Status
 - [x] ER process design
 - [x] Event log generator v4 (conditions, age groups, tests, Doctor Review, loop-back, admission and wards, pharmacy, billing)
-- [ ] Busy-hour delays and slow evening pharmacy
-- [ ] Scale to 10,000 patients and validate the data
+- [x] Busy-hour delays and slow evening pharmacy
+- [x] Scale to 10,000 patients and validate the data
 - [ ] BigQuery load
 - [ ] dbt models
 - [ ] PM4Py process discovery
@@ -47,4 +47,5 @@ Python event log generator -> Google BigQuery -> dbt -> PM4Py -> Power BI
 ## How to run
 ```
 python data_generator/generate_events.py
+python data_generator/validate_data.py
 ```
