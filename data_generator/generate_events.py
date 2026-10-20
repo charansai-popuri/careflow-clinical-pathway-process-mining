@@ -148,11 +148,11 @@ def main():
     random.seed(42)  # same random numbers every run, so results repeat
     start = datetime(2026, 10, 1, 8, 0)
     all_events = []
-    patient_count = 100
+    patient_count = 10000
 
     for i in range(1, patient_count + 1):
-        arrival = start + timedelta(minutes=random.randint(0, 3 * 24 * 60))
-        all_events += generate_patient(f"P{i:03d}", arrival)
+        arrival = start + timedelta(minutes=random.randint(0, 30 * 24 * 60))
+        all_events += generate_patient(f"P{i:05d}", arrival)
 
     all_events.sort(key=lambda e: (e["Case_ID"], e["Timestamp"]))
 
