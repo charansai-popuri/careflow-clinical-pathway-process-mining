@@ -66,6 +66,26 @@ def check_ward(columns, rows):
     return bad == 0, f"{bad} rows have a Ward on a step other than Ward Admission"
 
 
+def check_ward_present(rows):
+    bad = sum(1 for r in rows
+              if r["Activity"] == "Ward Admission" and not (r.get("Ward") or "").strip())
+    return bad == 0, f"{bad} Ward Admission rows have no Ward"
+
+
+def check_admission_billing(cases):
+    bad = 0
+    for evs in cases.values():
+        activities = {e["Activity"] for e in evs}
+        admitted = "Ward Admission" in activities
+        has_pharmacy_or_billing = bool({"Pharmacy", "Billing"} & activities)
+        # Admitted patients skip Pharmacy and Billing. Everyone else pays at Billing.
+        if admitted and has_pharmacy_or_billing:
+            bad += 1
+        if not admitted and "Billing" not in activities:
+            bad += 1
+    return bad == 0, f"{bad} patients break the admission / billing rule"
+
+
 def check_activity_names(rows):
     bad = {r["Activity"] for r in rows} - ALLOWED_ACTIVITIES
     return not bad, f"unknown activity names: {sorted(bad)}"
@@ -105,6 +125,8 @@ def main():
         ("Starts with Registration, ends with Discharge", check_start_end(cases)),
         ("Timestamps never go backwards", check_time_order(cases)),
         ("Ward only on Ward Admission rows", check_ward(columns, rows)),
+        ("Every Ward Admission row has a Ward", check_ward_present(rows)),
+        ("Admitted patients skip Pharmacy and Billing", check_admission_billing(cases)),
         ("Activity names are valid", check_activity_names(rows)),
         ("Condition and Age_Group constant per patient", check_case_attributes(cases)),
         ("No duplicate rows", check_duplicates(rows)),
