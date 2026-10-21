@@ -1,6 +1,6 @@
 # CareFlow: Clinical Pathway Process Mining
 
-Infotact Solutions internship project (Data Analytics, Group 11).
+Infotact Solutions internship project (Data Analytics).
 
 ## Problem
 Hospital administrators know Emergency Room waits are long, but not why.
@@ -29,14 +29,34 @@ Python event log generator -> Google BigQuery -> dbt -> PM4Py -> Power BI
 | Age_Group | Child, Adult or Senior |
 | Ward | Ward name, filled only on the Ward Admission step |
 
+## Planted inefficiencies
+The simulated data contains three known problems, so process mining has
+something real to discover:
+1. About 40% of X-Ray patients are sent back to Triage (loop-back).
+2. Long waits for the doctor during busy hours (10:00 to 14:00, 18:00 to 22:00).
+3. A slower pharmacy in the evening (18:00 to 23:00).
+
+## Data summary
+The generator (seed 42) produces 10,000 patients and 68,440 events over 30 days
+(about 333 patients a day), with 18 distinct patient paths.
+Measured in the generated data:
+- 40.6% of X-Ray patients return to Triage.
+- Average time from the previous step to Doctor Consultation: 48.5 minutes in
+  busy hours against 17.8 minutes at other times.
+- Average time from the previous step to Pharmacy: 44.5 minutes in the evening
+  against 18.2 minutes at other times.
+
 ## Project structure
 - `docs/` design documents (see `docs/process_design.md`)
-- `data_generator/` event log generator
+- `data_generator/generate_events.py` creates the event log
+- `data_generator/validate_data.py` checks the data quality rules
+- `data_generator/check_waits.py` shows the planted waiting problems
 - `data/` generated event logs
+- `requirements.txt` Python packages needed
 
 ## Status
 - [x] ER process design
-- [x] Event log generator v4 (conditions, age groups, tests, Doctor Review, loop-back, admission and wards, pharmacy, billing)
+- [x] Event log generator v5 (conditions, age groups, tests, Doctor Review, loop-back, admission and wards, pharmacy, billing, busy-hour waiting)
 - [x] Busy-hour delays and slow evening pharmacy
 - [x] Scale to 10,000 patients and validate the data
 - [ ] BigQuery load
@@ -46,6 +66,8 @@ Python event log generator -> Google BigQuery -> dbt -> PM4Py -> Power BI
 
 ## How to run
 ```
+pip install -r requirements.txt
 python data_generator/generate_events.py
 python data_generator/validate_data.py
+python data_generator/check_waits.py
 ```

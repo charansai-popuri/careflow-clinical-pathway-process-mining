@@ -56,6 +56,7 @@ Ward Admission, Pharmacy, Billing, Discharge.
 
 ## Waiting rules (planted problems)
 Waiting is extra time before a step starts, on top of the step's own duration.
+
 | Step | When | Extra wait (minutes) |
 |---|---|---|
 | Doctor Consultation | Busy hours: 10:00 to 14:00 and 18:00 to 22:00 | 20 to 60 |
@@ -88,4 +89,6 @@ to an earlier step.
 - v3: adds X-Ray and Lab Test (chances depend on condition), Doctor Review,
   and the 40% X-Ray to Triage loop-back.
 - v4: adds admission, the Ward column, Pharmacy and Billing.
-- Next: busy-hour delays and slow evening pharmacy, then scale to 10,000 patients.
+- v5: adds busy-hour doctor waits and a slower evening pharmacy.
+- Scale: 10,000 patients over 30 days (about 333 a day), IDs like P00001, and a validation script.
+- Next: load the data into BigQuery, then dbt models.
