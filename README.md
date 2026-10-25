@@ -53,6 +53,9 @@ Measured in the generated data:
 - `data_generator/check_waits.py` shows the planted waiting problems
 - `data/` generated event logs
 - `requirements.txt` Python packages needed
+- `bigquery/schema.json` BigQuery table definition for the raw event log
+- `docs/bigquery_setup.md` BigQuery plan and load checks
+- `process_mining/discover_process.py` discovers the process map with PM4Py
 
 ## Status
 - [x] ER process design
@@ -61,7 +64,7 @@ Measured in the generated data:
 - [x] Scale to 10,000 patients and validate the data
 - [ ] BigQuery load
 - [ ] dbt models
-- [ ] PM4Py process discovery
+- [x] PM4Py process discovery
 - [ ] Power BI dashboard
 
 ## How to run
@@ -70,4 +73,5 @@ pip install -r requirements.txt
 python data_generator/generate_events.py
 python data_generator/validate_data.py
 python data_generator/check_waits.py
+python process_mining/discover_process.py
 ```
