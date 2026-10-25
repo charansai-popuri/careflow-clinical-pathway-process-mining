@@ -62,7 +62,7 @@ Measured in the generated data:
 - [x] Event log generator v5 (conditions, age groups, tests, Doctor Review, loop-back, admission and wards, pharmacy, billing, busy-hour waiting)
 - [x] Busy-hour delays and slow evening pharmacy
 - [x] Scale to 10,000 patients and validate the data
-- [ ] BigQuery load
+- [x] BigQuery load
 - [ ] dbt models
 - [x] PM4Py process discovery
 - [ ] Power BI dashboard

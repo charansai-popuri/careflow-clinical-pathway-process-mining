@@ -33,3 +33,12 @@ Ward Admission step.
 
 ## Expected result after load
 68,440 rows and 10,000 distinct patients.
+
+## Load result
+| Item | Value |
+|---|---|
+| Project | careflow-ehr-04 |
+| Table | careflow_raw.event_log_raw |
+| Rows loaded | 68,440 |
+| Distinct patients | 10,000 |
+| Loaded on | 25 Oct 2026 |
