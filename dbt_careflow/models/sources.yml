@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: careflow_raw
+    database: careflow-ehr-04
+    schema: careflow_raw
+    tables:
+      - name: event_log_raws

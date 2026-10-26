@@ -1,0 +1,8 @@
+name: careflow
+version: "1.0.0"
+profile: careflow
+model-paths: ["models"]
+
+models:
+  careflow:
+    +materialized: view

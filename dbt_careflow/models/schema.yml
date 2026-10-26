@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: event_log
+    columns:
+      - name: Case_ID
+        tests:
+          - not_null
+      - name: Activity
+        tests:
+          - not_null
+      - name: Timestamp
+        tests:
+          - not_null
