@@ -5,4 +5,4 @@ sources:
     database: careflow-ehr-04
     schema: careflow_raw
     tables:
-      - name: event_log_raws
+      - name: event_log_raw

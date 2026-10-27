@@ -2,13 +2,30 @@ version: 2
 
 models:
   - name: event_log
+    description: Standard event log (one row per step of one patient visit)
     columns:
       - name: Case_ID
         tests:
           - not_null
-      - name: Activity
+      - name: Activity_Name
         tests:
           - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - Registration
+                  - Triage
+                  - Doctor Consultation
+                  - X-Ray
+                  - Lab Test
+                  - Doctor Review
+                  - Ward Admission
+                  - Pharmacy
+                  - Billing
+                  - Discharge
       - name: Timestamp
+        tests:
+          - not_null
+      - name: Event_Order
         tests:
           - not_null

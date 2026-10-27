@@ -63,7 +63,7 @@ Measured in the generated data:
 - [x] Busy-hour delays and slow evening pharmacy
 - [x] Scale to 10,000 patients and validate the data
 - [x] BigQuery load
-- [ ] dbt models
+- [x] dbt models
 - [x] PM4Py process discovery
 - [ ] Power BI dashboard
 

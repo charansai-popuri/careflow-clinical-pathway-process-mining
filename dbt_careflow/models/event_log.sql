@@ -1,7 +1,8 @@
 select
     Case_ID,
-    Activity,
+    Activity as Activity_Name,
     Timestamp,
+    row_number() over (partition by Case_ID order by Timestamp) as Event_Order,
     Condition,
     Age_Group,
     Ward
