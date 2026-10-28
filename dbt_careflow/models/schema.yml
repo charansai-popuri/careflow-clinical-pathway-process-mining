@@ -29,3 +29,16 @@ models:
       - name: Event_Order
         tests:
           - not_null
+
+  - name: transition_times
+    description: Average time between every pair of consecutive steps
+    columns:
+      - name: from_activity
+        tests:
+          - not_null
+      - name: to_activity
+        tests:
+          - not_null
+      - name: patients
+        tests:
+          - not_null
