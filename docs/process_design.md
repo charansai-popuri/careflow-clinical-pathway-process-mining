@@ -91,4 +91,5 @@ to an earlier step.
 - v4: adds admission, the Ward column, Pharmacy and Billing.
 - v5: adds busy-hour doctor waits and a slower evening pharmacy.
 - Scale: 10,000 patients over 30 days (about 333 a day), IDs like P00001, and a validation script.
-- Next: load the data into BigQuery, then dbt models.
+- Done: data loaded into BigQuery and cleaned with dbt (event_log and transition_times models).
+- Next: conformance checking, then the Power BI dashboard.

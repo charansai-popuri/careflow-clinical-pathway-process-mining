@@ -4,3 +4,5 @@ __pycache__/
 dbt_careflow/target/
 dbt_careflow/logs/
 .venv/
+logs/
+target/

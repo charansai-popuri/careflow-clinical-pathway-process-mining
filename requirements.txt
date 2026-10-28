@@ -1,4 +1,6 @@
 pandas==3.0.2
 pm4py==2.7.23.11
 matplotlib==3.11.2
-networkx==3.6.1
+networkx==3.7
+dbt-core==1.13.0b1
+dbt-bigquery==1.12.1

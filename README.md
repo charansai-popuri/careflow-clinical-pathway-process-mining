@@ -56,6 +56,7 @@ Measured in the generated data:
 - `bigquery/schema.json` BigQuery table definition for the raw event log
 - `docs/bigquery_setup.md` BigQuery plan and load checks
 - `process_mining/discover_process.py` discovers the process map with PM4Py
+- `dbt_careflow/` dbt models: `event_log` (clean event log) and `transition_times` (average time between steps)
 
 ## Status
 - [x] ER process design
