@@ -57,6 +57,8 @@ Measured in the generated data:
 - `docs/bigquery_setup.md` BigQuery plan and load checks
 - `process_mining/discover_process.py` discovers the process map with PM4Py
 - `dbt_careflow/` dbt models: `event_log` (clean event log) and `transition_times` (average time between steps)
+- `powerbi/careflow_dashboard.pbix` Power BI dashboard connected to the BigQuery dbt views
+- `docs/dashboard.png` screenshot of the dashboard
 
 ## Status
 - [x] ER process design
@@ -66,7 +68,7 @@ Measured in the generated data:
 - [x] BigQuery load
 - [x] dbt models
 - [x] PM4Py process discovery
-- [ ] Power BI dashboard
+- [x] Power BI dashboard (first version: bottleneck chart, KPI cards, process map)
 
 ## How to run
 ```
