@@ -75,4 +75,10 @@ python data_generator/generate_events.py
 python data_generator/validate_data.py
 python data_generator/check_waits.py
 python process_mining/discover_process.py
+
+### dbt (BigQuery models)
+
+1. Log in once: `gcloud auth application-default login`
+2. Create `profiles.yml` in your home `.dbt` folder (outside the repo) with project `careflow-ehr-04`, your output dataset, and the same location as `careflow_raw`.
+3. From the `dbt_careflow` folder run `dbt debug`, `dbt run` and `dbt test`.
 ```
