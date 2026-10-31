@@ -1,11 +1,18 @@
 """Discover the as-is process map from the event log with PM4Py.
 
-Reads data/event_log.csv, discovers the directly-follows graph (which step
-directly follows which, and how often), prints the findings and saves a picture
-to docs/process_map.png.
+Reads the event log, discovers the directly-follows graph (which step directly
+follows which, and how often), prints the findings and saves a picture.
 
-Run from the project folder:  python process_mining/discover_process.py
+Two sources are supported:
+  csv       reads data/event_log.csv                        (the default)
+  bigquery  reads the dbt view careflow_clean.event_log     (the dbt output)
+
+Run from the project folder:
+  python process_mining/discover_process.py
+  python process_mining/discover_process.py bigquery
 """
+import sys
+
 import matplotlib
 matplotlib.use("Agg")  # draw to a file, no window needed
 import matplotlib.pyplot as plt
@@ -13,8 +20,15 @@ import networkx as nx
 import pandas as pd
 import pm4py
 
+SOURCE = sys.argv[1] if len(sys.argv) > 1 else "csv"
+
 CSV_PATH = "data/event_log.csv"
-PICTURE_PATH = "docs/process_map.png"
+BIGQUERY_PROJECT = "careflow-ehr-04"
+BIGQUERY_VIEW = "careflow-ehr-04.careflow_clean.event_log"
+PICTURE_PATHS = {
+    "csv": "docs/process_map.png",
+    "bigquery": "docs/process_map_bigquery.png",
+}
 
 # Where each step is drawn: (column, row). Left to right follows the patient flow.
 POSITIONS = {
@@ -30,8 +44,31 @@ POSITIONS = {
     "Discharge": (7, 0),
 }
 
+
+def load_from_csv():
+    """Read the raw CSV file."""
+    return pd.read_csv(CSV_PATH, parse_dates=["Timestamp"], keep_default_na=False)
+
+
+def load_from_bigquery():
+    """Read the clean dbt view straight from BigQuery (needs gcloud login)."""
+    from google.cloud import bigquery
+
+    client = bigquery.Client(project=BIGQUERY_PROJECT)
+    query = f"""
+        select Case_ID, Activity_Name as Activity, Timestamp
+        from `{BIGQUERY_VIEW}`
+        order by Case_ID, Event_Order
+    """
+    return client.query(query).to_dataframe(create_bqstorage_client=False)
+
+
+if SOURCE not in PICTURE_PATHS:
+    sys.exit("Unknown source. Use: csv or bigquery")
+
 # 1. Load the event log and tell PM4Py which column is which
-df = pd.read_csv(CSV_PATH, parse_dates=["Timestamp"], keep_default_na=False)
+df = load_from_csv() if SOURCE == "csv" else load_from_bigquery()
+print(f"Source: {SOURCE}" + (f" ({BIGQUERY_VIEW})" if SOURCE == "bigquery" else f" ({CSV_PATH})"))
 log = pm4py.format_dataframe(
     df, case_id="Case_ID", activity_key="Activity", timestamp_key="Timestamp"
 )
@@ -81,5 +118,5 @@ nx.draw_networkx_edge_labels(graph, POSITIONS,
 ax.set_title("CareFlow: discovered patient flow (red arrow = X-Ray back to Triage loop-back)")
 ax.axis("off")
 fig.tight_layout()
-fig.savefig(PICTURE_PATH, dpi=130)
-print(f"\nSaved the process map to {PICTURE_PATH}")
+fig.savefig(PICTURE_PATHS[SOURCE], dpi=130)
+print(f"\nSaved the process map to {PICTURE_PATHS[SOURCE]}")

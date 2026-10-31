@@ -77,10 +77,19 @@ python data_generator/generate_events.py
 python data_generator/validate_data.py
 python data_generator/check_waits.py
 python process_mining/discover_process.py
+```
 
 ### dbt (BigQuery models)
 
 1. Log in once: `gcloud auth application-default login`
 2. Create `profiles.yml` in your home `.dbt` folder (outside the repo) with project `careflow-ehr-04`, your output dataset, and the same location as `careflow_raw`.
 3. From the `dbt_careflow` folder run `dbt debug`, `dbt run` and `dbt test`.
-```
+
+## Findings (from the generated data)
+- 40.6% of X-Ray patients return to Triage (965 of 2,377): the planted loop-back, found by PM4Py.
+- Doctor waits are longer in busy hours: 48.5 minutes against 17.8 minutes at other times.
+- The evening pharmacy is slower: 44.5 minutes against 18.2 minutes at other times.
+- Triage to Doctor Consultation averages about 26.6 minutes across all 10,000 patients (dbt `transition_times` model).
+
+## Dashboard
+![Power BI dashboard](docs/dashboard.png)
