@@ -77,6 +77,7 @@ python data_generator/generate_events.py
 python data_generator/validate_data.py
 python data_generator/check_waits.py
 python process_mining/discover_process.py
+python process_mining/discover_process.py bigquery
 ```
 
 ### dbt (BigQuery models)
