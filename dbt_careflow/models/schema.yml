@@ -42,3 +42,14 @@ models:
       - name: patients
         tests:
           - not_null
+
+  - name: case_conformance
+    description: One row per patient, flagging paths that break the ideal journey
+    columns:
+      - name: Case_ID
+        tests:
+          - not_null
+          - unique
+      - name: is_compliant
+        tests:
+          - not_null
