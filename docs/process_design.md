@@ -92,4 +92,5 @@ to an earlier step.
 - v5: adds busy-hour doctor waits and a slower evening pharmacy.
 - Scale: 10,000 patients over 30 days (about 333 a day), IDs like P00001, and a validation script.
 - Done: data loaded into BigQuery and cleaned with dbt (event_log and transition_times models).
-- Next: conformance checking, then the Power BI dashboard.
+- Done: conformance check in dbt (case_conformance model) and the first Power BI dashboard.
+- Next: conformance visuals and slicers in Power BI, then the final report and presentation.
