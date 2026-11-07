@@ -58,6 +58,7 @@ Measured in the generated data:
 - `process_mining/discover_process.py` discovers the process map with PM4Py
 - `dbt_careflow/` dbt models: `event_log` (clean event log) and `transition_times` (average time between steps)
 - `powerbi/careflow_dashboard.pbix` Power BI dashboard connected to the BigQuery dbt views
+- `docs/final_results.md` summary of the final results with wait-time charts
 - `docs/dashboard.png` screenshot of the dashboard
 
 ## Status
@@ -93,6 +94,7 @@ python process_mining/discover_process.py bigquery
 - The evening pharmacy is slower: 44.5 minutes against 18.2 minutes at other times.
 - Triage to Doctor Consultation averages about 26.6 minutes across all 10,000 patients (dbt `transition_times` model).
 - Conformance check (dbt `case_conformance` model): 9,035 of 10,000 patients (90.35%) follow the ideal path. The 965 non-compliant patients are exactly the X-Ray to Triage loop-backs. Fractures are the most affected (35.3% non-compliant), minor illness the least (1.9%).
+- Full results with charts: see `docs/final_results.md`. 
 
 ## Dashboard
 ![Power BI dashboard](docs/dashboard.png)
