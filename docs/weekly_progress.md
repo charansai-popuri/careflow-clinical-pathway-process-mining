@@ -42,3 +42,8 @@
 
 - dbt models to standardise the event log, then PM4Py reading the dbt output, then the Power BI dashboard.
 
+## Week 4 (3 to 8 Nov)
+- Wrote docs/final_results.md with the verified results and two wait-time charts.
+- Added a conformance page to the Power BI dashboard: a Compliant % card (90.35%), a Non-compliant % card (9.65%), a bar chart by condition and slicers for Condition and Age_Group.
+- Built the final review presentation with proof slides from the real outputs.
+- The 965 non-compliant patients are exactly the X-Ray to Triage loop-backs. Fracture is the most affected condition (35.3%).
