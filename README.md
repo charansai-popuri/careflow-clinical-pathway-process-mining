@@ -95,6 +95,7 @@ python process_mining/discover_process.py bigquery
 - Triage to Doctor Consultation averages about 26.6 minutes across all 10,000 patients (dbt `transition_times` model).
 - Conformance check (dbt `case_conformance` model): 9,035 of 10,000 patients (90.35%) follow the ideal path. The 965 non-compliant patients are exactly the X-Ray to Triage loop-backs. Fractures are the most affected (35.3% non-compliant), minor illness the least (1.9%).
 - Full results with charts: see `docs/final_results.md`. 
+- `docs/project_report.pdf` final project report 
 
 ## Dashboard
 ![Power BI dashboard](docs/dashboard.png)
