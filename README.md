@@ -60,6 +60,7 @@ Measured in the generated data:
 - `powerbi/careflow_dashboard.pbix` Power BI dashboard connected to the BigQuery dbt views
 - `docs/final_results.md` summary of the final results with wait-time charts
 - `docs/dashboard.png` screenshot of the dashboard
+- `docs/CareFlow_final_presentation.pdf` final review presentation
 
 ## Status
 - [x] ER process design
